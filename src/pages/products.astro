@@ -40,10 +40,10 @@ import productsData from '../data/products.json';
   <!-- Hero Section para la página de productos -->
   <section class="relative py-20 overflow-hidden">
     <div class="container mx-auto px-6 text-center relative z-10">
-      <h1 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
+      <h1 class="text-5xl md:text-6xl font-bold text-white mb-6">
         Nuestros Productos
       </h1>
-      <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+      <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
         Descubre nuestra amplia gama de productos diseñados para satisfacer las necesidades de profesionales de la salud, estética y empresas.
       </p>
     </div>
@@ -52,7 +52,7 @@ import productsData from '../data/products.json';
   <!-- Sección de Productos -->
   <section class="relative py-20 overflow-hidden">
     <div class="container mx-auto px-6">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
         {productsData.map((product) => (
           <ProductCard product={product} />
         ))}
