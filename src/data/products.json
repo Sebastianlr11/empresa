@@ -2,32 +2,32 @@
     {
       "id": 1,
       "category": "Estética y Belleza",
-      "name": "Bata de Estética",
-      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "name": "Tulas Para Kits",
+      "description": "Tulas elegantes para organizar y transportar tus kits con estilo.",
       "image": "/estetica1.jpg",
       "link": "/products/estetica-belleza"
     },
     {
       "id": 2,
       "category": "Estética y Belleza",
-      "name": "Bata de Estética",
-      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "name": "Pantaloneta",
+      "description": "Pantaloneta ligera y cómoda, ideal para conjuntos modernos de belleza.",
       "image": "/estetica2.jpg",
       "link": "/products/estetica-belleza"
     },
     {
       "id": 3,
       "category": "Estética y Belleza",
-      "name": "Bata de Estética",
-      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "name": "kit Top y Panty",
+      "description": "Kit de top y panty, perfecto para realzar tu estilo.",
       "image": "/estetica3.jpg",
       "link": "/products/estetica-belleza"
     },
     {
       "id": 4,
       "category": "Estética y Belleza",
-      "name": "Bata de Estética",
-      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "name": "Estraplera",
+      "description": "Estraplera elegante y sofisticada que realza cualquier conjunto con distinción.",
       "image": "/estetica4.jpg",
       "link": "/products/estetica-belleza"
     },
