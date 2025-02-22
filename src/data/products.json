@@ -66,27 +66,237 @@
     
     
     {
-      "id": 2,
-      "category": "Estética y Belleza",
-      "name": "Zapatos de Estética",
-      "description": "Zapatos cómodos y profesionales para esteticistas.",
-      "image": "/images/zapatos-estetica.jpg",
-      "link": "/products/estetica-belleza"
-    },
-    {
-      "id": 3,
+      "id": 9,
       "category": "Dotaciones Empresariales",
       "name": "Uniforme Empresarial",
       "description": "Uniforme de alta calidad para empresas.",
-      "image": "/images/uniforme-empresarial.jpg",
+      "image": "/dotacion1.jpg",
       "link": "/products/dotaciones-empresariales"
     },
     {
-      "id": 4,
+      "id": 10,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion2.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 11,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion3.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 12,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion4.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 13,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion5.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 14,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion6.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 15,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion7.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 16,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion8.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 17,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion9.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 18,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion10.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 19,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion11.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 20,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion12.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 21,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion13.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 22,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion14.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 23,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion15.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 24,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion16.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 25,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion17.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 26,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion18.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 27,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion19.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 28,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion20.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 29,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion21.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 30,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/dotacion22.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+
+
+    {
+      "id": 31,
       "category": "Elementos de Protección",
       "name": "Guantes de Protección",
       "description": "Guantes resistentes para entornos laborales.",
-      "image": "/images/guantes-proteccion.jpg",
+      "image": "/proteccion1.jpg",
+      "link": "/products/elementos-proteccion"
+    },
+    {
+      "id": 32,
+      "category": "Elementos de Protección",
+      "name": "Guantes de Protección",
+      "description": "Guantes resistentes para entornos laborales.",
+      "image": "/proteccion2.jpg",
+      "link": "/products/elementos-proteccion"
+    },
+    {
+      "id": 33,
+      "category": "Elementos de Protección",
+      "name": "Guantes de Protección",
+      "description": "Guantes resistentes para entornos laborales.",
+      "image": "/proteccion3.jpg",
+      "link": "/products/elementos-proteccion"
+    },
+    {
+      "id": 34,
+      "category": "Elementos de Protección",
+      "name": "Guantes de Protección",
+      "description": "Guantes resistentes para entornos laborales.",
+      "image": "/proteccion4.jpg",
+      "link": "/products/elementos-proteccion"
+    },
+    {
+      "id": 35,
+      "category": "Elementos de Protección",
+      "name": "Guantes de Protección",
+      "description": "Guantes resistentes para entornos laborales.",
+      "image": "/proteccion5.jpg",
+      "link": "/products/elementos-proteccion"
+    },
+    {
+      "id": 36,
+      "category": "Elementos de Protección",
+      "name": "Guantes de Protección",
+      "description": "Guantes resistentes para entornos laborales.",
+      "image": "/proteccion6.jpg",
+      "link": "/products/elementos-proteccion"
+    },
+    {
+      "id": 37,
+      "category": "Elementos de Protección",
+      "name": "Guantes de Protección",
+      "description": "Guantes resistentes para entornos laborales.",
+      "image": "/proteccion7.jpg",
       "link": "/products/elementos-proteccion"
     }
     
