@@ -34,31 +34,31 @@
     {
       "id": 5,
       "category": "Estética y Belleza",
-      "name": "Bata de Estética",
-      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "name": "Pantuflas Desechables",
+      "description": "Pantuflas desechables cómodas y prácticas para espacios de estética y spa.",
       "image": "/estetica5.jpg",
       "link": "/products/estetica-belleza"
     },
     {
       "id": 6,
       "category": "Estética y Belleza",
-      "name": "Bata de Estética",
-      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "name": "Forro Cabecero",
+      "description": "Forro de cabecero versátil que transforma y moderniza cualquier ambiente.",
       "image": "/estetica6.jpg",
       "link": "/products/estetica-belleza"
     },
     {
       "id": 7,
       "category": "Estética y Belleza",
-      "name": "Bata de Estética",
-      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "name": "Sabana Spa",
+      "description": "Sabana spa lujosa para experiencias únicas de bienestar y relajación.",
       "image": "/estetica7.jpg",
       "link": "/products/estetica-belleza"
     },
     {
       "id": 8,
       "category": "Estética y Belleza",
-      "name": "Bata de Estética",
+      "name": "Diadema Spa",
       "description": "Bata cómoda y elegante para profesionales de la estética.",
       "image": "/estetica8.jpg",
       "link": "/products/estetica-belleza"
