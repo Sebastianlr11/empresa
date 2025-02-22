@@ -4,9 +4,67 @@
       "category": "Estética y Belleza",
       "name": "Bata de Estética",
       "description": "Bata cómoda y elegante para profesionales de la estética.",
-      "image": "/images/estetica-belleza.jpg",
+      "image": "/estetica1.jpg",
       "link": "/products/estetica-belleza"
     },
+    {
+      "id": 2,
+      "category": "Estética y Belleza",
+      "name": "Bata de Estética",
+      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "image": "/estetica2.jpg",
+      "link": "/products/estetica-belleza"
+    },
+    {
+      "id": 3,
+      "category": "Estética y Belleza",
+      "name": "Bata de Estética",
+      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "image": "/estetica3.jpg",
+      "link": "/products/estetica-belleza"
+    },
+    {
+      "id": 4,
+      "category": "Estética y Belleza",
+      "name": "Bata de Estética",
+      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "image": "/estetica4.jpg",
+      "link": "/products/estetica-belleza"
+    },
+    {
+      "id": 5,
+      "category": "Estética y Belleza",
+      "name": "Bata de Estética",
+      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "image": "/estetica5.jpg",
+      "link": "/products/estetica-belleza"
+    },
+    {
+      "id": 6,
+      "category": "Estética y Belleza",
+      "name": "Bata de Estética",
+      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "image": "/estetica6.jpg",
+      "link": "/products/estetica-belleza"
+    },
+    {
+      "id": 7,
+      "category": "Estética y Belleza",
+      "name": "Bata de Estética",
+      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "image": "/estetica7.jpg",
+      "link": "/products/estetica-belleza"
+    },
+    {
+      "id": 8,
+      "category": "Estética y Belleza",
+      "name": "Bata de Estética",
+      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "image": "/estetica8.jpg",
+      "link": "/products/estetica-belleza"
+    },
+    
+    
     {
       "id": 2,
       "category": "Estética y Belleza",
