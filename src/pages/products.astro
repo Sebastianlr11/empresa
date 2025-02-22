@@ -1,0 +1,62 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import productsData from '../data/products.json';
+---
+
+<Layout>
+    <!-- Líneas dinámicas de fondo -->
+    <div class="absolute inset-0 z-0">
+        <svg
+          class="w-full h-full opacity-20"
+          viewBox="0 0 1440 600"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <!-- Líneas curvas -->
+          <path
+            d="M0 300Q240 400 480 300T960 300T1440 400"
+            fill="none"
+            stroke="#3B82F6"
+            stroke-width="2"
+            stroke-dasharray="6 6"
+          />
+          <path
+            d="M0 400Q240 500 480 400T960 400T1440 500"
+            fill="none"
+            stroke="#3B82F6"
+            stroke-width="2"
+            stroke-dasharray="6 6"
+          />
+          <path
+            d="M0 200Q240 100 480 200T960 200T1440 100"
+            fill="none"
+            stroke="#3B82F6"
+            stroke-width="2"
+            stroke-dasharray="6 6"
+          />
+        </svg>
+      </div>
+  <!-- Hero Section para la página de productos -->
+  <section class="relative py-20 overflow-hidden">
+    <div class="container mx-auto px-6 text-center relative z-10">
+      <h1 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
+        Nuestros Productos
+      </h1>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+        Descubre nuestra amplia gama de productos diseñados para satisfacer las necesidades de profesionales de la salud, estética y empresas.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sección de Productos -->
+  <section class="relative py-20 overflow-hidden">
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {productsData.map((product) => (
+          <ProductCard product={product} />
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

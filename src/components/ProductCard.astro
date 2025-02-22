@@ -1,0 +1,35 @@
+---
+const { product } = Astro.props;
+const whatsappNumber = "573168341338"; // Cambia este número por el tuyo
+const defaultMessage = `Hola, estoy interesado en el producto: ${product.name}. ¿Podrías darme más información?`;
+const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
+---
+
+<div class="bg-gradient-to-br from-gray-800 to-gray-700 p-8 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+  <div class="text-white mb-4">
+    <img
+      src={product.image}
+      alt={product.name}
+      class="w-full h-48 object-cover rounded-lg mb-4"
+    />
+  </div>
+  <h3 class="text-xl font-bold text-white mb-4">{product.name}</h3>
+  <p class="text-gray-300">{product.description}</p>
+  <a
+    href={whatsappLink}
+    target="_blank"
+    class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-300  items-center justify-center space-x-2"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-1 w-1"
+      viewBox="0 0 44 24"
+      fill="currentColor"
+    >
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.1-.471-.149-.67.15-.198.297-.767.966-.94 1.164-.173.198-.347.223-.643.074-1.188-.594-2.205-1.68-2.835-2.792-.173-.298-.018-.46.13-.608.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.625.712.226 1.36.194 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 2.163c-5.376 0-9.735 4.359-9.735 9.735 0 1.902.548 3.706 1.496 5.227L2.163 21.837l4.761-1.496c1.521.948 3.325 1.496 5.227 1.496 5.376 0 9.735-4.359 9.735-9.735 0-5.376-4.359-9.735-9.735-9.735z"
+      />
+    </svg>
+    <span>Contactar</span>
+  </a>
+</div>

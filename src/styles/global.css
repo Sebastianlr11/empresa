@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+path {
+    animation: dash 5s linear infinite;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 100;
+    }
+  }

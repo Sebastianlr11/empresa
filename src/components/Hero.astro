@@ -1,0 +1,62 @@
+---
+// Hero Section con fondo transparente y líneas dinámicas
+---
+
+<section class="relative py-20 overflow-hidden">
+    <!-- Líneas dinámicas de fondo -->
+    <div class="absolute inset-0 z-0">
+      <svg
+        class="w-full h-full opacity-20"
+        viewBox="0 0 1440 600"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <!-- Líneas curvas -->
+        <path
+          d="M0 300Q240 400 480 300T960 300T1440 400"
+          fill="none"
+          stroke="#3B82F6"
+          stroke-width="2"
+          stroke-dasharray="6 6"
+        />
+        <path
+          d="M0 400Q240 500 480 400T960 400T1440 500"
+          fill="none"
+          stroke="#3B82F6"
+          stroke-width="2"
+          stroke-dasharray="6 6"
+        />
+        <path
+          d="M0 200Q240 100 480 200T960 200T1440 100"
+          fill="none"
+          stroke="#3B82F6"
+          stroke-width="2"
+          stroke-dasharray="6 6"
+        />
+      </svg>
+    </div>
+  
+    <!-- Contenido del Hero -->
+    <div class="container mx-auto px-6 text-center relative z-10">
+      <!-- Título principal -->
+      <h1 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
+        Dotación Hospitalaria <br class="hidden md:block" />
+        <span class="text-blue-600">de Alta Calidad</span>
+      </h1>
+  
+      <!-- Subtítulo -->
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+        Somos líderes en la fabricación y comercialización de prendas médicas, quirúrgicas y estéticas. Calidad y confianza para profesionales de la salud.
+      </p>
+  
+      <!-- Botones de acción -->
+      <div class="flex justify-center space-x-4">
+        <a href="/products" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+          Ver Productos
+        </a>
+        <a href="/contact" class="bg-transparent border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition duration-300">
+          Contacto
+        </a>
+      </div>
+    </div>
+  </section>

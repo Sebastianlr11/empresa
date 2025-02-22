@@ -1,0 +1,90 @@
+---
+// Sección de Productos
+---
+
+<section class="relative py-20 overflow-hidden">
+    <!-- Líneas dinámicas de fondo (opcional) -->
+    <div class="absolute inset-0 z-0">
+      <svg
+        class="w-full h-full opacity-20"
+        viewBox="0 0 1440 600"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <!-- Líneas curvas -->
+        <path
+          d="M0 300Q240 400 480 300T960 300T1440 400"
+          fill="none"
+          stroke="#3B82F6"
+          stroke-width="2"
+          stroke-dasharray="6 6"
+        />
+        <path
+          d="M0 400Q240 500 480 400T960 400T1440 500"
+          fill="none"
+          stroke="#3B82F6"
+          stroke-width="2"
+          stroke-dasharray="6 6"
+        />
+      </svg>
+    </div>
+  
+    <!-- Contenido de la sección -->
+    <div class="container mx-auto px-6 text-center relative z-10">
+      <!-- Título de la sección -->
+      <h2 class="text-4xl font-bold text-gray-800 mb-12">
+        Nuestros Productos
+      </h2>
+  
+      <!-- Tarjetas de productos -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Categoría 1: Estética y Belleza -->
+        <div class="bg-gradient-to-br from-gray-800 to-gray-700 p-8 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+          <div class="text-white mb-4">
+            <!-- Icono o imagen -->
+            <img
+              src="/images/estetica-belleza.jpg" 
+              alt="Estética y Belleza"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Estética y Belleza</h3>
+          <p class="text-gray-300">
+            Ropa cómoda y elegante para profesionales de la estética y el bienestar. Diseñada para brindar comodidad y estilo.
+          </p>
+        </div>
+  
+        <!-- Categoría 2: Dotaciones Empresariales -->
+        <div class="bg-gradient-to-br from-gray-800 to-gray-700 p-8 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+          <div class="text-white mb-4">
+            <!-- Icono o imagen -->
+            <img
+              src="/images/dotaciones-empresariales.jpg" 
+              alt="Dotaciones Empresariales"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Dotaciones Empresariales</h3>
+          <p class="text-gray-300">
+            Uniformes y ropa de trabajo de alta calidad para empresas. Diseñados para la comodidad y durabilidad.
+          </p>
+        </div>
+  
+        <!-- Categoría 3: Elementos de Protección -->
+        <div class="bg-gradient-to-br from-gray-800 to-gray-700 p-8 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+          <div class="text-white mb-4">
+            <!-- Icono o imagen -->
+            <img
+              src="/images/elementos-proteccion.jpg" 
+              alt="Elementos de Protección"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Elementos de Protección</h3>
+          <p class="text-gray-300">
+            Equipos de protección personal (EPP) para garantizar la seguridad en entornos laborales. Cumplimos con los más altos estándares.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>

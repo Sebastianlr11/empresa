@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "category": "Estética y Belleza",
+      "name": "Bata de Estética",
+      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "image": "/images/estetica-belleza.jpg",
+      "link": "/products/estetica-belleza"
+    },
+    {
+      "id": 2,
+      "category": "Estética y Belleza",
+      "name": "Zapatos de Estética",
+      "description": "Zapatos cómodos y profesionales para esteticistas.",
+      "image": "/images/zapatos-estetica.jpg",
+      "link": "/products/estetica-belleza"
+    },
+    {
+      "id": 3,
+      "category": "Dotaciones Empresariales",
+      "name": "Uniforme Empresarial",
+      "description": "Uniforme de alta calidad para empresas.",
+      "image": "/images/uniforme-empresarial.jpg",
+      "link": "/products/dotaciones-empresariales"
+    },
+    {
+      "id": 4,
+      "category": "Elementos de Protección",
+      "name": "Guantes de Protección",
+      "description": "Guantes resistentes para entornos laborales.",
+      "image": "/images/guantes-proteccion.jpg",
+      "link": "/products/elementos-proteccion"
+    }
+    
+  ]
