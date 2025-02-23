@@ -1,46 +1,43 @@
----
-// Sección de Contacto
----
+<!-- Sección de Contacto -->
+<section class="relative py-20 overflow-hidden bg-gradient-to-r from-gray-900 to-gray-800">
+  <!-- Líneas dinámicas de fondo (opcional) -->
+  <div class="absolute inset-0 z-0">
+    <svg
+      class="w-full h-full opacity-20"
+      viewBox="0 0 1440 600"
+      preserveAspectRatio="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <!-- Líneas curvas -->
+      <path
+        d="M0 300Q240 400 480 300T960 300T1440 400"
+        fill="none"
+        stroke="#3B82F6"
+        stroke-width="2"
+        stroke-dasharray="6 6"
+      />
+      <path
+        d="M0 400Q240 500 480 400T960 400T1440 500"
+        fill="none"
+        stroke="#3B82F6"
+        stroke-width="2"
+        stroke-dasharray="6 6"
+      />
+    </svg>
+  </div>
 
-<section class="relative py-20 overflow-hidden">
-    <!-- Líneas dinámicas de fondo (opcional) -->
-    <div class="absolute inset-0 z-0">
-      <svg
-        class="w-full h-full opacity-20"
-        viewBox="0 0 1440 600"
-        preserveAspectRatio="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <!-- Líneas curvas -->
-        <path
-          d="M0 300Q240 400 480 300T960 300T1440 400"
-          fill="none"
-          stroke="#3B82F6"
-          stroke-width="2"
-          stroke-dasharray="6 6"
-        />
-        <path
-          d="M0 400Q240 500 480 400T960 400T1440 500"
-          fill="none"
-          stroke="#3B82F6"
-          stroke-width="2"
-          stroke-dasharray="6 6"
-        />
-      </svg>
-    </div>
-  
-    <!-- Contenido de la sección -->
-    <div id="contact" class="container mx-auto px-6 text-center relative z-10">
-      <!-- Título de la sección -->
-      <h2 class="text-4xl font-bold text-white mb-12">
-        Contáctanos
-      </h2>
-  
-      <!-- Contenedor de la información -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <!-- Mapa de Google -->
-        <div class="rounded-lg overflow-hidden shadow-lg">
-          <iframe
+  <!-- Contenido de la sección -->
+  <div id="contact" class="container mx-auto px-6 text-center relative z-10">
+    <!-- Título de la sección -->
+    <h2 class="text-4xl md:text-5xl font-bold text-white mb-16">
+      Contáctanos
+    </h2>
+
+    <!-- Contenedor de la información -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <!-- Mapa de Google -->
+      <div class="rounded-xl overflow-hidden shadow-2xl hover:shadow-blue-500/20 transition-all duration-300">
+        <iframe
           src="https://www.google.com/maps?q=Carrera+79+a+%2335-74+Sur+Bogot%C3%A1+DC&output=embed"
           width="100%"
           height="400"
@@ -48,95 +45,94 @@
           allowfullscreen=""
           loading="lazy"
         ></iframe>
-        
+      </div>
+
+      <!-- Información de contacto -->
+      <div class="text-left">
+        <h3 class="text-3xl font-bold text-white mb-6">
+          ¿Dónde encontrarnos?
+        </h3>
+        <p class="text-gray-400 mb-8">
+          Estamos ubicados en:<br />
+          <strong class="text-blue-500">Carrera 79 a #35-74 Sur Bogotá DC, Colombia</strong>
+        </p>
+
+        <h3 class="text-3xl font-bold text-white mb-6">
+          Contáctanos
+        </h3>
+        <div class="flex flex-wrap gap-4">
+          <!-- Botón de Teléfono -->
+          <a
+            href="tel:+573168341338"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105"
+          >
+            📞 Llamar
+          </a>
+
+          <!-- Botón de Correo (con funcionalidad de copiar) -->
+          <button
+            id="copyEmail"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105"
+          >
+            ✉️ Correo
+          </button>
+
+          <!-- Botón de WhatsApp -->
+          <a
+            href="https://wa.me/573168341338"
+            target="_blank"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105"
+          >
+            💬 WhatsApp
+          </a>
+
+          <!-- Botón de Facebook -->
+          <a
+            href="https://www.facebook.com/mundialquirurgicos?locale=es_LA"
+            target="_blank"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105"
+          >
+            📘 Facebook
+          </a>
+
+          <!-- Botón de Instagram -->
+          <a
+            href="https://www.instagram.com/mundialquirurgicos/"
+            target="_blank"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105"
+          >
+            📸 Instagram
+          </a>
+
+          <!-- Botón de LinkedIn -->
+          <a
+            href="https://linkedin.com/company/tuempresa"
+            target="_blank"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105"
+          >
+            🔗 LinkedIn
+          </a>
         </div>
-  
-        <!-- Información de contacto -->
-        <div class="text-left">
-          <h3 class="text-3xl font-bold text-white mb-6">
-            ¿Dónde encontrarnos?
-          </h3>
-          <p class="text-gray-400 mb-6">
-            Estamos ubicados en:<br />
-            <strong>Carrera 79 a #35-74 Sur Bogotá DC, Colombia</strong>
-          </p>
-  
-          <h3 class="text-3xl font-bold text-white mb-6">
-            Contáctanos
-          </h3>
-          <div class="flex flex-wrap gap-4">
-            <!-- Botón de Teléfono -->
-            <a
-              href="tel:+573168341338"
-              class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
-            >
-              📞 Llamar
-            </a>
-  
-            <!-- Botón de Correo (con funcionalidad de copiar) -->
-            <button
-              id="copyEmail"
-              class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
-            >
-              ✉️ Correo
-            </button>
-  
-            <!-- Botón de WhatsApp -->
-            <a
-              href="https://wa.me/573168341338"
-              target="_blank"
-              class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
-            >
-              💬 WhatsApp
-            </a>
-  
-            <!-- Botón de Facebook -->
-            <a
-              href="https://www.facebook.com/mundialquirurgicos?locale=es_LA"
-              target="_blank"
-              class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
-            >
-              📘 Facebook
-            </a>
-  
-            <!-- Botón de Instagram -->
-            <a
-              href="https://www.instagram.com/mundialquirurgicos/"
-              target="_blank"
-              class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
-            >
-              📸 Instagram
-            </a>
-  
-            <!-- Botón de LinkedIn -->
-            <a
-              href="https://linkedin.com/company/tuempresa"
-              target="_blank"
-              class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
-            >
-              🔗 LinkedIn
-            </a>
-          </div>
-  
-          <!-- Mensaje de "Correo copiado" -->
-          <div id="copyMessage" class="hidden mt-4 text-green-600">
-            Correo copiado ✅
-          </div>
+
+        <!-- Mensaje de "Correo copiado" -->
+        <div id="copyMessage" class="hidden mt-4 text-green-500 font-semibold">
+          Correo copiado ✅
         </div>
       </div>
     </div>
-  
-    <!-- Script para copiar el correo -->
-    <script>
-      document.getElementById('copyEmail').addEventListener('click', function () {
-        const email = 'info@mundialquirurgicos.com'; // Cambia este correo
-        navigator.clipboard.writeText(email).then(() => {
-          const message = document.getElementById('copyMessage');
-          message.classList.remove('hidden');
-          setTimeout(() => {
-            message.classList.add('hidden');
-          }, 2000); // Oculta el mensaje después de 2 segundos
-        });
+  </div>
+
+  <!-- Script para copiar el correo -->
+  <script>
+    document.getElementById('copyEmail').addEventListener('click', function () {
+      const email = 'info@mundialquirurgicos.com'; // Cambia este correo
+      navigator.clipboard.writeText(email).then(() => {
+        const message = document.getElementById('copyMessage');
+        message.classList.remove('hidden');
+        setTimeout(() => {
+          message.classList.add('hidden');
+        }, 2000); // Oculta el mensaje después de 2 segundos
       });
-    </script>
-  </section>
+    });
+  </script>
+</section>

@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "title": "Confecciones Empresariales",
+      "description": "Ofrecemos confecciones empresariales a medida, uniformes y prendas personalizadas.",
+      "features": [
+        "Mantenimiento de dos años",
+        "Diseños personalizados",
+        "Entrega rápida y confiable"
+      ],
+      "image": "/servicio-confecciones-empresariales.jpg",
+      "whatsappMessage": "Hola, estoy interesado en el servicio de Confecciones Empresariales. ¿Podrían darme más información?"
+    },
+    {
+      "id": 2,
+      "title": "Servicio De Corte",
+      "description": "Brindamos un servicio especializado de corte de tela quirúrgica, garantizando precisión y eficiencia.",
+      "features": [
+        "Mantenimiento de dos años",
+        "Diseños personalizados",
+        "Entrega rápida y confiable"
+      ],
+      "image": "/serviciocorte.jpg",
+      "whatsappMessage": "Hola, estoy interesado en el servicio de Corte. ¿Podrían darme más información?"
+    },
+    {
+      "id": 3,
+      "title": "Estética y Belleza",
+      "description": "Asesoramiento experto para elegir productos ideales para tu spa o centro de bienestar.",
+      "features": [
+        "Mantenimiento de dos años",
+        "Diseños personalizados",
+        "Entrega rápida y confiable"
+      ],
+      "image": "/servicio-estetica-belleza1.webp",
+      "whatsappMessage": "Hola, estoy interesado en el servicio de Estética y Belleza. ¿Podrían darme más información?"
+    },
+    {
+      "id": 4,
+      "title": "Confección De Maquila",
+      "description": "Experiencia, profesionalismo y logística para producir tus diseños con altos estándares de calidad.",
+      "features": [
+        "Mantenimiento de dos años",
+        "Diseños personalizados",
+        "Entrega rápida y confiable"
+      ],
+      "image": "/servicio-confeccion-maquila.png",
+      "whatsappMessage": "Hola, estoy interesado en el servicio de Confección De Maquila. ¿Podrían darme más información?"
+    }
+  ]
