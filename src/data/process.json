@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Consulta",
+      "description": "Conocemos tus necesidades, preferencias y visión para el diseño.",
+      "icon": "📞" 
+    },
+    {
+      "id": 2,
+      "title": "Diseño",
+      "description": "Creamos propuestas personalizadas basadas en tus ideas.",
+      "icon": "🎨"
+    },
+    {
+      "id": 3,
+      "title": "Producción",
+      "description": "Fabricamos tus uniformes con materiales de alta calidad.",
+      "icon": "🏭"
+    },
+    {
+      "id": 4,
+      "title": "Entrega",
+      "description": "Enviamos tus productos listos para usar a tiempo y en perfectas condiciones.",
+      "icon": "🚚"
+    }
+  ]

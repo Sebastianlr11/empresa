@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué tipos de uniformes ofrecen?",
+      "answer": "Ofrecemos uniformes empresariales, médicos, deportivos y personalizados. Todos diseñados con materiales de alta calidad."
+    },
+    {
+      "id": 2,
+      "question": "¿Cuánto tiempo toma la producción?",
+      "answer": "El tiempo de producción varía según el pedido, pero generalmente toma entre 2 y 4 semanas."
+    },
+    {
+      "id": 3,
+      "question": "¿Hacen envíos internacionales?",
+      "answer": "Sí, realizamos envíos internacionales. Contáctanos para más detalles sobre costos y tiempos de entrega."
+    },
+    {
+      "id": 4,
+      "question": "¿Puedo personalizar los diseños?",
+      "answer": "¡Claro! Trabajamos contigo para crear diseños únicos que se ajusten a tus necesidades y preferencias."
+    },
+    {
+      "id": 5,
+      "question": "¿Qué métodos de pago aceptan?",
+      "answer": "Aceptamos tarjetas de crédito, transferencias bancarias y PayPal."
+    }
+  ]
