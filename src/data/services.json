@@ -1,24 +1,24 @@
 [
     {
       "id": 1,
-      "title": "Confecciones Empresariales",
-      "description": "Ofrecemos confecciones empresariales a medida, uniformes y prendas personalizadas.",
+      "title": "Confecciones Empresariales y Hospitalarias",
+      "description": "Somos expertos en diseñar y producir uniformes empresariales, dotaciones, prendas hospitalarias y artículos desechables para estética y belleza. Trabajamos con altos estándares de calidad, asegurando comodidad, durabilidad y una presentación impecable para cada sector.",
       "features": [
-        "Mantenimiento de dos años",
-        "Diseños personalizados",
-        "Entrega rápida y confiable"
+        "Diseños personalizados que refuerzan la imagen de tu empresa.",
+        "pijamas y uniformes hospitalarios elaborados con telas de alta resistencia e higiene.",
+        "Soluciones prácticas y seguras, pensadas para proteger a tu equipo y clientes."
       ],
       "image": "/servicio-confecciones-empresariales.jpg",
       "whatsappMessage": "Hola, estoy interesado en el servicio de Confecciones Empresariales. ¿Podrían darme más información?"
     },
     {
       "id": 2,
-      "title": "Servicio De Corte",
-      "description": "Brindamos un servicio especializado de corte de tela quirúrgica, garantizando precisión y eficiencia.",
+      "title": "Servicio de Corte Especializado",
+      "description": "Realizamos cortes de tela quirúrgica y otros textiles con la más alta precisión y eficiencia, gracias a nuestro equipo experto y maquinaria de vanguardia. Aseguramos un proceso rápido y confiable que cumple con los más estrictos estándares de calidad.",
       "features": [
-        "Mantenimiento de dos años",
-        "Diseños personalizados",
-        "Entrega rápida y confiable"
+        "Nos adaptamos a tus requerimientos y volúmenes de producción.",
+        "Equipos de corte automatizados para garantizar exactitud.",
+        "Planificamos cuidadosamente para cumplir con tus plazos."
       ],
       "image": "/serviciocorte.jpg",
       "whatsappMessage": "Hola, estoy interesado en el servicio de Corte. ¿Podrían darme más información?"
@@ -26,11 +26,11 @@
     {
       "id": 3,
       "title": "Estética y Belleza",
-      "description": "Asesoramiento experto para elegir productos ideales para tu spa o centro de bienestar.",
+      "description": "Proporcionamos asesoría integral para elegir los productos y uniformes ideales en tu spa o centro de bienestar. Nuestras soluciones combinan comodidad, higiene y elegancia para que ofrezcas la mejor experiencia a tus clientes.",
       "features": [
-        "Mantenimiento de dos años",
-        "Diseños personalizados",
-        "Entrega rápida y confiable"
+        "Aseguramos la durabilidad de nuestras prendas con respaldo y servicio posventa.",
+        "Creamos piezas que se ajustan a tu imagen y necesidades específicas.",
+        "Procesos ágiles para cumplir con tus plazos de producción."
       ],
       "image": "/servicio-estetica-belleza1.webp",
       "whatsappMessage": "Hola, estoy interesado en el servicio de Estética y Belleza. ¿Podrían darme más información?"
@@ -38,11 +38,11 @@
     {
       "id": 4,
       "title": "Confección De Maquila",
-      "description": "Experiencia, profesionalismo y logística para producir tus diseños con altos estándares de calidad.",
+      "description": "Ponemos a tu disposición nuestra experiencia, profesionalismo y capacidad logística para llevar tus diseños a la realidad con altos estándares de calidad. Nos encargamos de todo el proceso de producción para que obtengas resultados impecables en cada prenda.",
       "features": [
-        "Mantenimiento de dos años",
-        "Diseños personalizados",
-        "Entrega rápida y confiable"
+        "Garantía de calidad y soporte posventa.",
+        "Adaptamos cada detalle a tus requerimientos y marca.",
+        "Cumplimos con tus plazos y te mantenemos informado en todo momento."
       ],
       "image": "/servicio-confeccion-maquila.png",
       "whatsappMessage": "Hola, estoy interesado en el servicio de Confección De Maquila. ¿Podrían darme más información?"

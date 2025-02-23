@@ -50,16 +50,16 @@
     {
       "id": 7,
       "category": "Estética y Belleza",
-      "name": "Sabana Spa",
-      "description": "Sabana spa lujosa para experiencias únicas de bienestar y relajación.",
+      "name": "Diadema Spa",
+      "description": "Bata cómoda y elegante para profesionales de la estética.",
       "image": "/estetica7.jpg",
       "link": "/products/estetica-belleza"
     },
     {
       "id": 8,
       "category": "Estética y Belleza",
-      "name": "Diadema Spa",
-      "description": "Bata cómoda y elegante para profesionales de la estética.",
+      "name": "Sabana Spa",
+      "description": "Sabana spa lujosa para experiencias únicas de bienestar y relajación.",
       "image": "/estetica8.jpg",
       "link": "/products/estetica-belleza"
     },
